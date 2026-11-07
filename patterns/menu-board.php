@@ -19,6 +19,9 @@ ob_start();
 <!-- wp:heading -->
 <h2 class="wp-block-heading"><?php echo esc_html__( 'Baked This Morning', 'golden-crumb-lite' ); ?></h2>
 <!-- /wp:heading -->
+<!-- wp:paragraph {"placeholder":"Order cut-off (filled in from WooCommerce > Settings > Shipping > Order ahead)","className":"is-style-order-cutoff"} -->
+<p class="is-style-order-cutoff"></p>
+<!-- /wp:paragraph -->
 <!-- wp:group {"layout":{"type":"default"},"className":"menu-board__group"} -->
 <div class="wp-block-group menu-board__group">
 <!-- wp:heading {"level":3} -->
@@ -541,6 +544,25 @@ ob_start();
 <!-- wp:paragraph {"className":"bk-lede bk-allergens"} -->
 <p class="bk-lede bk-allergens"><?php echo esc_html__( 'Our kitchen handles wheat, dairy, eggs, tree nuts, soy and sesame, so we cannot promise any item is free of them, even those marked vegan or gluten free. Please ask about allergens before you order.', 'golden-crumb-lite' ); ?></p>
 <!-- /wp:paragraph -->
+<!-- wp:heading {"level":3} -->
+<h3 class="wp-block-heading"><?php echo esc_html__( 'Today\'s bake schedule', 'golden-crumb-lite' ); ?></h3>
+<!-- /wp:heading -->
+<!-- wp:list {"className":"is-style-schedule"} -->
+<ul class="wp-block-list is-style-schedule">
+<!-- wp:list-item -->
+<li><?php echo esc_html__( '6:00 AM · Breads: sourdough, rye and the day\'s loaves', 'golden-crumb-lite' ); ?></li>
+<!-- /wp:list-item -->
+<!-- wp:list-item -->
+<li><?php echo esc_html__( '7:00 AM · Morning pastries: croissants, morning buns and Danishes', 'golden-crumb-lite' ); ?></li>
+<!-- /wp:list-item -->
+<!-- wp:list-item -->
+<li><?php echo esc_html__( '8:30 AM · Cookies and bars: snickerdoodles and blondies', 'golden-crumb-lite' ); ?></li>
+<!-- /wp:list-item -->
+<!-- wp:list-item -->
+<li><?php echo esc_html__( '10:30 AM · Focaccia: rosemary and sea salt, still warm', 'golden-crumb-lite' ); ?></li>
+<!-- /wp:list-item -->
+</ul>
+<!-- /wp:list -->
 </section>
 <!-- /wp:group -->
 <?php

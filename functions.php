@@ -10,7 +10,7 @@
 
 defined( 'ABSPATH' ) || exit;
 
-define( 'GOLDEN_CRUMB_LITE_VERSION', '1.0.0' );
+define( 'GOLDEN_CRUMB_LITE_VERSION', '1.0.1' );
 define( 'GOLDEN_CRUMB_LITE_DIR', get_template_directory() );
 define( 'GOLDEN_CRUMB_LITE_URI', get_template_directory_uri() );
 
